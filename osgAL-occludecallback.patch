@@ -1,0 +1,11 @@
+diff -Nur osgAL.orig/include/osgAL/Makefile.am osgAL/include/osgAL/Makefile.am
+--- osgAL.orig/include/osgAL/Makefile.am	2004-11-22 08:40:33.000000000 +0100
++++ osgAL/include/osgAL/Makefile.am	2005-03-04 22:55:43.002315296 +0100
+@@ -1,6 +1,7 @@
+ 
+ pkginclude_HEADERS = \
+ 	Export \
++	OccludeCallback \
+ 	SoundState \
+ 	SoundRoot \
+ 	SoundManager \
