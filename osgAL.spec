@@ -1,6 +1,6 @@
 %define _snap 050208
 Summary:	osgAL - 3D SoundLibrary for OpenSceneGraph library
-Summary(pl):	osgAL - Biblioteka dzwieku 3D dla OpenSceneGraph
+Summary(pl):	osgAL - Biblioteka d¼wieku 3D dla OpenSceneGraph
 Name:		osgAL
 Version:	0.3
 Release:	0.20%{_snap}.1
@@ -15,7 +15,7 @@ BuildRequires:	OpenSceneGraph-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libstdc++-devel
-BuildRequires:	libtool
+BuildRequires:	libtool >= 2:1.5
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -71,9 +71,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %files devel
 %defattr(644,root,root,755)
+%attr(755,root,root) %{_libdir}/lib*.so
+%{_libdir}/lib*.la
 %{_includedir}/%{name}
 %{_pkgconfigdir}/*.pc
-%{_libdir}/lib*.so
-%{_libdir}/lib*.la
 
 #%{_libdir}/lib*.a
