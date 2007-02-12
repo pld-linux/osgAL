@@ -1,6 +1,6 @@
 %define _snap 050208
 Summary:	osgAL - 3D SoundLibrary for OpenSceneGraph library
-Summary(pl):	osgAL - Biblioteka dºwieku 3D dla OpenSceneGraph
+Summary(pl.UTF-8):   osgAL - Biblioteka d≈∫wieku 3D dla OpenSceneGraph
 Name:		osgAL
 Version:	0.3
 Release:	0.20%{_snap}.1
@@ -22,13 +22,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 osgAL is a toolkit for handling spatial (3D) sound in the
 OpenSceneGraph rendering library.
 
-%description -l pl
-osgAL to narzÍdzie do obs≥ugi dºwiÍku przestrzennego (3D) w
+%description -l pl.UTF-8
+osgAL to narzƒôdzie do obs≈Çugi d≈∫wiƒôku przestrzennego (3D) w
 OpenSceneGraph.
 
 %package devel
 Summary:	Header files for osgAL library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki osgAL
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki osgAL
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	OpenAL++-devel
@@ -38,8 +38,8 @@ Requires:	libstdc++-devel
 %description devel
 Header files for osgAL library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki osgAL.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki osgAL.
 
 %prep
 %setup -q -n %{name}
