@@ -1,6 +1,6 @@
 %define _snap 050208
 Summary:	osgAL - 3D SoundLibrary for OpenSceneGraph library
-Summary(pl.UTF-8):   osgAL - Biblioteka dźwieku 3D dla OpenSceneGraph
+Summary(pl.UTF-8):	osgAL - Biblioteka dźwieku 3D dla OpenSceneGraph
 Name:		osgAL
 Version:	0.3
 Release:	0.20%{_snap}.1
@@ -28,7 +28,7 @@ OpenSceneGraph.
 
 %package devel
 Summary:	Header files for osgAL library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki osgAL
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki osgAL
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	OpenAL++-devel
